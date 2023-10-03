@@ -232,21 +232,38 @@ export default function Dashboardtiles() {
                         <span className='memberpiccontainer'>
                             <span className='memberpic' id='member1pic'>
                                 <img alt='member1' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar1.1d9e1978.png' className='memberimg' id='member1'></img>
-                                <span className='imgnamecontainer' id='m1namecontainer'>
+                 
+                            </span>
+                            <span className='imgnamecontainer' id='m1namecontainer'>
                                  <span className='imgname' id='member1name'>Sasha Lynch</span>
 
-                                </span>
                             </span>
 
              
-                            <span className='memberpic'>
+                            <span className='memberpic' id='member2pic'>
                                 <img alt='member2' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar2.b8132c3c.png' className='memberimg' id='member2'></img>
                             </span>
-                            <span className='memberpic'>
+                            <span className='imgnamecontainer' id='m2namecontainer'>
+                                 <span className='imgname' id='member2name'>Ryan Tompson</span>
+
+                            </span>
+
+
+                            <span className='memberpic' id='member3pic'>
                                 <img alt='member3' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar3.4d26ce02.png' className='memberimg' id='member3'></img>
                             </span>
-                            <span className='memberpic'>
+                            <span className='imgnamecontainer' id='m3namecontainer'>
+                                 <span className='imgname' id='member3name'>Romina Hadid</span>
+
+                            </span>
+
+
+                            <span className='memberpic' id='member4pic'>
                                 <img alt='member4' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar4.2a4ba26c.png' className='memberimg' id='member4'></img>
+                            </span>
+                            <span className='imgnamecontainer' id='m4namecontainer'>
+                                 <span className='imgname' id='member4name'>Jessica Doe</span>
+
                             </span>
 
 
@@ -275,12 +292,21 @@ export default function Dashboardtiles() {
                     <td className='membersdata'>
                     <span className='memberpiccontainer'>
               
-                            <span className='memberpic'>
+                            <span className='memberpic' id='member2pic'>
                                 <img alt='member2' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar2.b8132c3c.png' className='memberimg' id='member2'></img>
                             </span>
+                            <span className='imgnamecontainer' id='m2namecontainer'>
+                                 <span className='imgname' id='member2name'>Ryan Tompson</span>
+
+                            </span>
+
                           
-                            <span className='memberpic'>
+                            <span className='memberpic' id='member4pic'>
                                 <img alt='member4' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar4.2a4ba26c.png' className='memberimg' id='member4'></img>
+                            </span>
+                            <span className='imgnamecontainer' id='m4namecontainer'>
+                                 <span className='imgname' id='member4name'>Jessica Doe</span>
+
                             </span>
 
                         </span>
@@ -304,14 +330,21 @@ export default function Dashboardtiles() {
                         Fix Platform Errors</td>
                     <td className='membersdata'>
                     <span className='memberpiccontainer'>
-                            <span className='memberpic'>
+                            <span className='memberpic' id='member1pic'>
                                 <img alt='member1' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar1.1d9e1978.png' className='memberimg' id='member1'></img>
                             </span>
+                            <span className='imgnamecontainer' id='m1namecontainer'>
+                                 <span className='imgname' id='member1name'>Sasha Lynch</span>
 
+                            </span>
                    
                          
-                            <span className='memberpic'>
+                            <span className='memberpic' id='member3pic'>
                                 <img alt='member3' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar3.4d26ce02.png' className='memberimg' id='member3'></img>
+                            </span>
+                            <span className='imgnamecontainer' id='m3namecontainer'>
+                                 <span className='imgname' id='member3name'>Romina Hadid</span>
+
                             </span>
                           
                         </span>
@@ -336,28 +369,45 @@ export default function Dashboardtiles() {
                         Launch our Mobile App</td>
                     <td className='membersdata'>
                     <span className='memberpiccontainer'>
-                        <span className='memberpic'>
+                            <span className='memberpic' id='member4pic'>
                                 <img alt='member4' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar4.2a4ba26c.png' className='memberimg' id='member4'></img>
                             </span>
-                            <span className='imgnamecontainer' id='member1name'>
-                                <span className='imgname' id='member1name'>Sasha Lynch</span>
+                            <span className='imgnamecontainer' id='m4namecontainer'>
+                                 <span className='imgname' id='member4name'>Jessica Doe</span>
 
                             </span>
-                            <span className='memberpic'>
+
+           
+                            <span className='memberpic' id='member3pic'>
                                 <img alt='member3' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar3.4d26ce02.png' className='memberimg' id='member3'></img>
                             </span>
-                            <span className='memberpic'>
+                            <span className='imgnamecontainer' id='m3namecontainer'>
+                                 <span className='imgname' id='member3name'>Romina Hadid</span>
+
+                            </span>
+
+
+                            <span className='memberpic' id='member2pic'>
                                 <img alt='member2' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar2.b8132c3c.png' className='memberimg' id='member2'></img>
+                            </span>
+                            <span className='imgnamecontainer' id='m2namecontainer'>
+                                 <span className='imgname' id='member2name'>Ryan Tompson</span>
+
                             </span>
                            
                             
 
-                            <span className='memberpic'>
+                            <span className='memberpic' id='member1pic'>
                                 <img alt='member1' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar1.1d9e1978.png' className='memberimg' id='member1'></img>
                             </span>
+                            <span className='imgnamecontainer' id='m1namecontainer'>
+                                 <span className='imgname' id='member1name'>Sasha Lynch</span>
+
+                            </span>
+                           
 
             
-                        </span>
+                    </span>
                     </td>
                     <td id='budgetdata'>$20,500</td>
                     <td className='completiondata' id='completion4'>100%
@@ -379,8 +429,12 @@ export default function Dashboardtiles() {
                         Add the New Pricing Page</td>
                     <td className='membersdata'>
                     <span className='memberpiccontainer'>
-                        <span className='memberpic'>
+                            <span className='memberpic' id='member4pic'>
                                 <img alt='member4' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar4.2a4ba26c.png' className='memberimg' id='member4'></img>
+                            </span>
+                            <span className='imgnamecontainer' id='m4namecontainer'>
+                                 <span className='imgname' id='member4name'>Jessica Doe</span>
+
                             </span>
 
             
@@ -407,11 +461,21 @@ export default function Dashboardtiles() {
                         Redesign New Online Shop</td>
                     <td className='membersdata'>
                     <span className='memberpiccontainer'>
-                        <span className='memberpic'>
+                            <span className='memberpic' id='member1pic'>
                                 <img alt='member1' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar1.1d9e1978.png' className='memberimg' id='member1'></img>
                             </span>
-                        <span className='memberpic'>
+                            <span className='imgnamecontainer' id='m1namecontainer'>
+                                 <span className='imgname' id='member1name'>Sasha Lynch</span>
+
+                            </span>
+
+
+                            <span className='memberpic' id='member4pic'>
                                 <img alt='member4' src='https://demos.creative-tim.com/vision-ui-dashboard-react/static/media/avatar4.2a4ba26c.png' className='memberimg' id='member4'></img>
+                            </span>
+                            <span className='imgnamecontainer' id='m4namecontainer'>
+                                 <span className='imgname' id='member4name'>Jessica Doe</span>
+
                             </span>
                          
                           

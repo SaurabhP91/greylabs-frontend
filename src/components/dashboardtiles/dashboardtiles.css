@@ -553,42 +553,85 @@ td{
     position: relative;
 }
 .imgnamecontainer{
-    position: absolute;
+    position: relative;
     
-    width:50px;
+    height:30px;
+    width:1px;
+  
+  
     
 }
 .imgname{
 
     position: absolute;
 
-    top:15px;
-    right:0px;
+    top:30px;
+    right:-30px;
     width:30px;
     height:20px;
     place-items: center;
     justify-content: center;
-
+    white-space:nowrap;
     font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
     color:white;
     font-weight:400;
     word-break: keep-all;
     width:100px;
     background-color: black;
+    
 
    
     
 
 }
-
 #m1namecontainer{
-visibility: visible;
+    visibility: hidden;
+    
+    transform: translate(-50%);
+    cursor: pointer;
+   
+    
 }
 
-#member1pic:hover #m1namecontainer{
+#m2namecontainer{
+    visibility: hidden;
+    
+    cursor: pointer;
+    
+}
+#m3namecontainer{
+    visibility: hidden;
+    
+    cursor: pointer;
+   
+}
+#m4namecontainer{
+    visibility: hidden;
+    
+    cursor: pointer;
+    
+}
+
+
+#member1pic:hover + #m1namecontainer{
   visibility: visible;
-  background-color: brown;
+
  
+}
+#member2pic:hover + #m2namecontainer{
+    visibility: visible;
+  
+   
+  }
+#member3pic:hover + #m3namecontainer{
+    visibility: visible;
+  
+   
+}
+#member4pic:hover + #m4namecontainer{
+    visibility: visible;
+  
+   
 }
 
 #orderscontainer{
