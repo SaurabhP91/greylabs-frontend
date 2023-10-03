@@ -1,0 +1,102 @@
+
+#dashboardheader{
+    display: flex;
+    place-items: center;
+   
+    width:80%;
+    align-items: center;
+
+    
+    padding:0.8rem;
+    left:250px;
+    position: relative;
+
+   
+    
+
+}
+#headericon{
+    color:gray;
+    width:15px;
+    height:15px;
+}
+#leftheader{
+    display: block;
+    text-align: left;
+    place-items: center;
+    
+
+}
+#leftheadertitle{
+    color:white;
+    font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight:400;
+}
+
+#leftheadersubtitle{
+    color:white;
+    font-size: 1rem;
+    line-height: 1.625;
+    font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+    font-weight:700;
+}
+
+#searchbar{
+   
+    position: relative;
+    left:60%;
+    background-color: rgb(15, 21, 53);
+    
+    align-items: center;
+    place-items: center;
+
+    display: flex;
+
+    border-color: rgb(118, 118, 118);
+    border-style: inset;
+    border-radius:0.75rem;
+    padding:4px;
+    width:200px;
+
+}
+
+#rightheader{
+    color:white;
+    position: relative;
+    left:60%;
+    width:180px;
+    margin-right:0%;
+    place-items: center;
+    display: flex;
+    justify-content: space-around;
+   
+    
+    
+    
+}
+.searchicon{
+    color:rgb(113, 128, 150);
+}
+#signinicon{
+    left:10px;
+    position: relative;
+    cursor:pointer;
+
+}
+
+
+.sideheadericon{
+    width:1em;
+    height:1em;
+    cursor: pointer;
+}
+
+.searchinput{
+    background-color: rgb(15, 21, 53);
+    
+    outline:none;
+    border:none;
+    color:white;
+}
+
