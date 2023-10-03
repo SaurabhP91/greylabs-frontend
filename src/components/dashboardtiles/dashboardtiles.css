@@ -607,7 +607,7 @@ ul{
 
 li{
     list-style-image: none;
-    background-image: url("C:\Program Files\IMP CLG FILES\webdev\Greylabs assignment\vision-ui\public\assets\azure.svg");
+    background-image: url("../../../public/assets/azure.svg");
     background-position: left top;
     padding:0px 30px 10px;
     background-size: 15px;
@@ -621,19 +621,19 @@ li{
 }
 
 li#listitem2{
-    background-image: url("C:\Program Files\IMP CLG FILES\webdev\Greylabs assignment\vision-ui\public\assets\invision.svg");
+    background-image: url("../../../public/assets/invision.svg");
 }
 li#listitem3{
-    background-image: url("C:\Program Files\IMP CLG FILES\webdev\Greylabs assignment\vision-ui\public\assets\help.jpg");
+    background-image:url("../../../public/assets/help.jpg");
 }
 li#listitem4{
-    background-image: url("C:\Program Files\IMP CLG FILES\webdev\Greylabs assignment\vision-ui\public\assets\slack.svg");
+    background-image: url("../../../public/assets/slack.svg");
 }
 li#listitem5{
-    background-image: url("C:\Program Files\IMP CLG FILES\webdev\Greylabs assignment\vision-ui\public\assets\jira.svg");
+    background-image: url("../../../public/assets/jira.svg");
 }
 li#listitem6{
-    background-image: url("C:\Program Files\IMP CLG FILES\webdev\Greylabs assignment\vision-ui\public\assets\adobexd.svg");
+    background-image: url("../../../public/assets/adobexd.svg");
 }
 
 #listcontainer{
