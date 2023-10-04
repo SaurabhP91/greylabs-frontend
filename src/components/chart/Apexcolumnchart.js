@@ -95,6 +95,7 @@ const data = {
     },
   
 };
+
 function Apexcolumnchart() {
   return (
     <div>

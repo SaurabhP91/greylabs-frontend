@@ -5,5 +5,12 @@
     
 }
 
-
+@media screen and (max-width: 1200px){
+    #dashboardpage{
+        width:80%;
+    }
+    #dashboardtilescontainer{
+        width:100%;
+    }
+}
 

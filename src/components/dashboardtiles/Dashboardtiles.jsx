@@ -153,7 +153,7 @@ export default function Dashboardtiles() {
         </div>
 
         <div id='activeusers' className='dashboardtiles'>
-            <span id='userschartcontainer'>
+            <span id='chartcontainer'>
             <Apexcolumnchart  id='userschart'/>
             </span>
             <span id='activeuserstitle'>

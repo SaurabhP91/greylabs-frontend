@@ -100,3 +100,12 @@
     color:white;
 }
 
+@media screen and(max-width:1290px) {
+    #dashboardheader{
+        
+    }
+    #searchbar{
+        
+    }
+    
+}
